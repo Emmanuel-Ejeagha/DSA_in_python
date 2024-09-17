@@ -9,3 +9,4 @@
     - Non-primitive
   - Types of Algorithms
 - [Recursion](./Recursion/)
+- [Arrays](./Array/)

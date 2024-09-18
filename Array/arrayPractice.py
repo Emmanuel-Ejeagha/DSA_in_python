@@ -61,9 +61,15 @@ print("Step 12")
 my_arr.append(2)
 print(my_arr.count(2))
 
-# 13. Convert array to string using tostring() method
+# 13. Convert array to string using str() method
 print("Step 13")
 strTemp = str(my_arr)
 print(type(strTemp))
+
 # 14. Convert array to a python list with same elements using tolist() method
+print("Step 14")
+myList=  my_arr.tolist()
+print(type(myList), myList)
+
+
 # 15. Append a string to char array using fromstring() method

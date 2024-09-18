@@ -8,6 +8,9 @@ for i in my_arr:
     print(i)
 
 # 2. Access individual elements through indexes
+print("Step 2")
+print(my_arr[2])
+
 # 3. Append any value to the array using append() method
 # 4. Insert value in an array using insert() method
 # 5. Extend python array using extend() method

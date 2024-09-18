@@ -57,6 +57,10 @@ print("Step 11")
 print(my_arr.buffer_info())
 
 # 12. Check for number of occurances of an element using count() method
+print("Step 12")
+my_arr.append(2)
+print(my_arr.count(2))
+
 # 13. Convert array to string using tostring() method
 # 14. Convert array to a python list with same elements using tolist() method
 # 15. Append a string to char array using fromstring() method

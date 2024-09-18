@@ -48,6 +48,9 @@ print("Step 9")
 print(my_arr.index(8))
 
 # 10. Reverse a python array using reverse() method
+print("Step 10")
+my_arr.reverse()
+print(my_arr)
 
 # 11. Get array buffer information through buffer_info() method
 # 12. Check for number of occurances of an element using count() method

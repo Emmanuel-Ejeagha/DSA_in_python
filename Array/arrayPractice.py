@@ -12,7 +12,15 @@ print("Step 2")
 print(my_arr[2])
 
 # 3. Append any value to the array using append() method
+print("Step 3")
+my_arr.append(20)
+print(my_arr)
+
 # 4. Insert value in an array using insert() method
+print("Step 4")
+my_arr.insert(3, 7)
+print(my_arr)
+
 # 5. Extend python array using extend() method
 # 6. Add items from list into array using formlist() method
 # 7. Remove any array element using remove() method

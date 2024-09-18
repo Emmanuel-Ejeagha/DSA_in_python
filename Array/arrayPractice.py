@@ -34,6 +34,10 @@ my_arr.fromlist(tempList)
 print(my_arr)
 
 # 7. Remove any array element using remove() method
+print("Step 7")
+my_arr.remove(4)
+print(my_arr)
+
 # 8. Remove last array element using pop() method
 # 9. Fetch my element through its index using index() method
 # 10. Reverse a python array using reverse() method

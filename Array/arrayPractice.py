@@ -39,6 +39,10 @@ my_arr.remove(4)
 print(my_arr)
 
 # 8. Remove last array element using pop() method
+print("Step 8")
+my_arr.pop()
+print(my_arr)
+
 # 9. Fetch my element through its index using index() method
 # 10. Reverse a python array using reverse() method
 # 11. Get array buffer information through buffer_info() method

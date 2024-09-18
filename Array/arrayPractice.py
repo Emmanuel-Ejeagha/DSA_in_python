@@ -22,6 +22,12 @@ my_arr.insert(3, 7)
 print(my_arr)
 
 # 5. Extend python array using extend() method
+print("Step 5")
+my_arr1 = array('i', [3, 5, 8,])
+my_arr.extend(my_arr1)
+print(my_arr)
+
+
 # 6. Add items from list into array using formlist() method
 # 7. Remove any array element using remove() method
 # 8. Remove last array element using pop() method

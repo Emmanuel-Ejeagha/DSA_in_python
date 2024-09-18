@@ -27,8 +27,12 @@ my_arr1 = array('i', [3, 5, 8,])
 my_arr.extend(my_arr1)
 print(my_arr)
 
+# 6. Add items from list into array using fromlist() method
+print("Step 6")
+tempList = [1, 9, 40]
+my_arr.fromlist(tempList)
+print(my_arr)
 
-# 6. Add items from list into array using formlist() method
 # 7. Remove any array element using remove() method
 # 8. Remove last array element using pop() method
 # 9. Fetch my element through its index using index() method

@@ -44,7 +44,11 @@ my_arr.pop()
 print(my_arr)
 
 # 9. Fetch my element through its index using index() method
+print("Step 9")
+print(my_arr.index(8))
+
 # 10. Reverse a python array using reverse() method
+
 # 11. Get array buffer information through buffer_info() method
 # 12. Check for number of occurances of an element using count() method
 # 13. Convert array to string using tostring() method

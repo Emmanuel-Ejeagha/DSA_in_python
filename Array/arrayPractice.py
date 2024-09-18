@@ -72,4 +72,6 @@ myList=  my_arr.tolist()
 print(type(myList), myList)
 
 
-# 15. Append a string to char array using fromstring() method
+# 15. Slice elements from an array
+print("Step 15")
+print(my_arr[0:4])

@@ -53,6 +53,9 @@ my_arr.reverse()
 print(my_arr)
 
 # 11. Get array buffer information through buffer_info() method
+print("Step 11")
+print(my_arr.buffer_info())
+
 # 12. Check for number of occurances of an element using count() method
 # 13. Convert array to string using tostring() method
 # 14. Convert array to a python list with same elements using tolist() method

@@ -1,4 +1,4 @@
-# Two dimensional arrays
+# Two dimensional arrays pactical
 import numpy as np
 
 twoDArray = np.array([[2, 5, 65, 54],

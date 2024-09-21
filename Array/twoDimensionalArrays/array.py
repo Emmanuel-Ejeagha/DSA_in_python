@@ -4,7 +4,7 @@ import numpy as np
 twoDArray = np.array([[2, 5, 65, 54],
                      [34, 2, 90, 4],
                      [30, 950, 24, 86],
-                     [30, 16, 122, 9]])
+                     [30, 16, 22, 9]])
 
 print(type(twoDArray), twoDArray)
 

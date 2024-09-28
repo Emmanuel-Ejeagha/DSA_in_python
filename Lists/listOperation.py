@@ -18,3 +18,8 @@ for i in range(len(lists)):
 empty = []
 for i in empty:
     print("I am empty")
+
+# List operations / functions
+a = [123, '*']
+a *= 6
+print(a)

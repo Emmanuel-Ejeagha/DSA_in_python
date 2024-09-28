@@ -5,6 +5,6 @@ def searchList(list, value):
     for num in list:
         if num == value:
             return list.index(value)
-    return "The number is not in the list"
+        return "The number is not in the list"
 
-print(searchList(myList, 3))
+print(searchList(myList, 0))

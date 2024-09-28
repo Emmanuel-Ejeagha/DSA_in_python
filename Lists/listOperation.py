@@ -13,3 +13,8 @@ for li in lists:
 for i in range(len(lists)):
     lists[i] = str(lists[i])+ "+"
     print(lists[i])
+
+# Tranversing through an empty list will not work
+empty = []
+for i in empty:
+    print("I am empty")

@@ -10,4 +10,6 @@ print(lists[2])
 for li in lists:
     print(li)
 
-
+for i in range(len(lists)):
+    lists[i] = str(lists[i])+ "+"
+    print(lists[i])

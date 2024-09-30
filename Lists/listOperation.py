@@ -37,7 +37,7 @@ print(a)
     
 # print(f'sum: {total} Average: {average}')
 
-# Solution
+# Solution using list
 mylist = [] #  I can also used: mylist = list()
 while(True):
     prompt = input('Enter a number or (done t o end): ')
@@ -48,3 +48,23 @@ while(True):
     average = mySum / len(mylist)
     
 print(f'sum: {mySum} Average: {average}')
+
+a = 'clearance'
+b = list(a)
+print(b)
+
+a = 'clear clear clear'
+b = a.split()
+print(b)
+
+
+a = 'clear0-clear1-clear2'
+delimiter = '-'
+b = a.split(delimiter)
+print(b)
+
+a = 'clear0-clear1-clear2'
+delimiter = 'a'
+b = a.split(delimiter)
+print(b)
+print(delimiter.join(b))

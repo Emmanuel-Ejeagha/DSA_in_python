@@ -49,6 +49,8 @@ while(True):
     
 print(f'sum: {mySum} Average: {average}')
 
+
+# List methods
 a = 'clearance'
 b = list(a)
 print(b)

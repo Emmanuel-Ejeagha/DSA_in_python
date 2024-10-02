@@ -32,3 +32,5 @@ print(myDict)
 print(myDict.setdefault('status', 'single'))
 print(myDict)
 
+# values() method
+print(myDict.values())

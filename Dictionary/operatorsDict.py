@@ -27,3 +27,7 @@ newDict = {}
 print(any(newDict))
 newDict = {0: False, 1: False, 2: False}
 print(any(newDict))
+
+print(sorted(myDict))
+print(sorted(myDict, reverse=True))
+print(sorted(myDict, key=len))

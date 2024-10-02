@@ -17,3 +17,18 @@ print(newDict)
 #  get() method
 print(myDict.get('status'))
 print(myDict)
+
+# items() method
+print(myDict.items())
+
+# keys() method
+print(myDict.keys())
+
+# popitem() method
+print(myDict.popitem())
+print(myDict)
+
+# setdefault() method
+print(myDict.setdefault('status', 'single'))
+print(myDict)
+

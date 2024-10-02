@@ -34,3 +34,9 @@ print(myDict)
 
 # values() method
 print(myDict.values())
+
+# update() method
+myDict = {'name': 'Emmanuel', 'age': 20, 'state': 'Lagos', 'ethnicity': 'Igbo'}
+newDict = {'occupation': 'Software Engineer', 'Education': "Degree"}
+myDict.update(newDict)
+print(myDict)

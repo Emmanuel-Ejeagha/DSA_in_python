@@ -18,7 +18,7 @@ print(all(newDict))
 newDict = {0: False, 1: False, 2: False}
 print(all(newDict))
 
-# any()
+# any() method
 newDict = {0: True, 1: False, 2: False}
 print(any(newDict))
 newDict = {1: True, 2: True}
@@ -28,6 +28,8 @@ print(any(newDict))
 newDict = {0: False, 1: False, 2: False}
 print(any(newDict))
 
+# sorted method
 print(sorted(myDict))
 print(sorted(myDict, reverse=True))
 print(sorted(myDict, key=len))
+

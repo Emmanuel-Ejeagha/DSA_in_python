@@ -9,6 +9,7 @@ class SLinkedList:
     def __init__(self):
         self.head = None
         self.tail = None
+    
 
 singlyLinkedList = SLinkedList()
 node1 = Node(1)
